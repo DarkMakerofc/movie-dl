@@ -6,7 +6,7 @@
 </a>
 </div></br>
 
-
+<a name = "links">
 <p align = "center">This is Unofficial Web scraper of sinhalasub.lk web site.</p>
 </br>
 • <a href = "#install" alt = "">Install Npm Package</a></br>
@@ -21,6 +21,8 @@
 •  [Download Movies and Tv Shows](#download)</br>
 
 </br>
+
+</a>
 <a name = "install">
 <h4><u>⬇️ Install Package.</u></h4>
 
@@ -433,6 +435,8 @@ console.log(result)
 ```
 </a>
 </br></br></br>
+
+[`⛼ GO UP`](#links)
 
 ## Author : [@mrnima](https://github.com/darkmakerofc)
 ###### email : mnimaofc@gmail.com
