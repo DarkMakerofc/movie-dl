@@ -13,6 +13,14 @@
 • <a href = "#require" alt = "">Require Npm Package</a></br>
 • <a href = "#start" alt = "">Getting Start</a>
 </br>
+
+•  [Search Movies](#search)</br>
+•  [Get New Updated Movies](#movies)</br>
+•  [Get New Updated TvShows](#tvshows)</br>
+•  [Get Episodes Using TvShow Link](#episodes)</br>
+•  [Download Movies and Tv Shows](#download)</br>
+
+</br>
 <a name = "install">
 <h4><u>⬇️ Install Package.</u></h4>
 
@@ -315,4 +323,118 @@ console.log(result)
 </br>
 <a name = "episodes">
   <h4>🔢 Get Episodes Links.</h4>
+
+```
+var tvshowLink = "https://sinhalasub.lk/tvshows/killer-soup-2024-sinhala-subtitles/";
+var result = await movie.episodes(tvShowLink);
+console.log(result)
+```
+<h5>✅ Result</h5>
+
+```
+{
+   "creator": "MR NIMA",
+   "status": true,
+   "result": {
+      "title": "Killer Soup (2024) Sinhala Subtitles | සිංහල උපසිරසි සමඟ",
+      "image": "https://sinhalasub.lk/wp-content/uploads/2024/01/jm08lHmvZulDzxd5koPs8pf8Mir-200x300.jpg",
+      "date": "Jan. 11, 2024",
+      "links": [
+         [
+            {
+               "title": "Episode 1",
+               "link": "https://sinhalasub.lk/episodes/killer-soup-s1e1/"
+            },
+            {
+               "title": "Episode 2",
+               "link": "https://sinhalasub.lk/episodes/killer-soup-s1e2/"
+            },
+            {
+               "title": "Episode 3",
+               "link": "https://sinhalasub.lk/episodes/killer-soup-s1e3/"
+            },
+            {
+               "title": "Episode 4",
+               "link": "https://sinhalasub.lk/episodes/killer-soup-s1e4/"
+            }
+         ]
+      ]
+   }
+}
+```
 </a>
+</br>
+<a name = "download">
+<h4>⬇️ Downlaod Movies and Episodes.</h4>
+
+```
+var link = "https://sinhalasub.lk/movies/o2-2024-sinhala-subtitles/";
+var result = await movie.download(link);
+console.log(result)
+```
+<h5>✅ Result </h5>
+
+```
+{
+   "creator": "MR NIMA",
+   "status": true,
+   "result": {
+      "title": "O2 (2024) Sinhala Subtitles | සිංහල උපසිරසි සමඟ",
+      "image": "https://sinhalasub.lk/wp-content/uploads/2024/06/n9rH9of4930TAHgpQXlrENuAFU5-200x300.jpg",
+      "links": [
+         {
+            "quality": "FHD 1080p",
+            "size": "2.68 GB",
+            "link": "https://t.me/Sinhalasubnet_bot?start=Z2V0LTEwODA4NjI0OTM0NjY3OTY4"
+         },
+         {
+            "quality": "HD 720p",
+            "size": "1.32 GB",
+            "link": "https://t.me/Sinhalasubnet_bot?start=Z2V0LTEwODA3NjIzMzk0MTgxMDY0"
+         },
+         {
+            "quality": "SD 480p",
+            "size": "683 MB",
+            "link": "https://t.me/Sinhalasubnet_bot?start=Z2V0LTEwODA2NjIxODUzNjk0MTYw"
+         },
+         {
+            "quality": "FHD 1080p",
+            "size": "2.68 GB",
+            "link": "https://mega.nz/file/UqlW2BaI#zlXQ4dUVUS-D2I6LKrIV3QhNy4sS7GDucmSBacK2sd0"
+         },
+         {
+            "quality": "HD 720p",
+            "size": "1.32 GB",
+            "link": "https://mega.nz/file/wyd1QAKa#JSjL6TOvocSo7VDaxXORp__hKaDzjC86j4P0-s4HuWY"
+         },
+         {
+            "quality": "SD 480p",
+            "size": "683 MB",
+            "link": "https://mega.nz/file/9ndn0ZaB#bjohexu01DtOAxFg22moIBjF76ZstVqQCKlqwhTP_OA"
+         },
+         {
+            "quality": "FHD 1080p",
+            "size": "2.68 GB",
+            "link": "https://ddl.sinhalasub.net/4993/O2+%282024%29+Kannada+WEB-DL+-+1080p.mp4?hash=AgAD3x"
+         },
+         {
+            "quality": "HD 720p",
+            "size": "1.32 GB",
+            "link": "https://ddl.sinhalasub.net/4991/O2+%282024%29+Kannada+WEB-DL+-+720p.mp4?hash=AgADXR"
+         },
+         {
+            "quality": "SD 480p",
+            "size": "683 MB",
+            "link": "https://ddl.sinhalasub.net/4989/O2+%282024%29+Kannada+WEB-DL+-+480p.mp4?hash=AgADXB"
+         }
+      ]
+   }
+}
+```
+</a>
+</br></br></br>
+
+## Author : [@mrnima](https://github.com/darkmakerofc)
+###### email : mnimaofc@gmail.com
+
+> MOVIE DOWNLOADER BY MR NIMA
