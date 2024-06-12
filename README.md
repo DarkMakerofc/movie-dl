@@ -7,15 +7,14 @@
 </div></br>
 
 <a name = "links">
-
-### Using This npm 🚀
-
 <p align = "center">This is Unofficial Web scraper of sinhalasub.lk web site.</p>
 </br>
 • <a href = "#install" alt = "">Install Npm Package</a></br>
 • <a href = "#require" alt = "">Require Npm Package</a></br>
 • <a href = "#start" alt = "">Getting Start</a>
 </br>
+
+### Using This npm 🚀
 
 •  [Search Movies](#search)</br>
 •  [Get New Updated Movies](#movies)</br>
@@ -657,6 +656,16 @@ console.log(result)
 ```
 </a>
 </br></br></br>
+<h6>
+[ 🚀 Updates ]
+</br>
+ ⦁ Fix Episode Name ( title ) not Fetcher ( Downlaoder ).</br>
+ ⦁ Add More details for getEpisode using tvShow link.</br>
+ ⦁ Add date for new Movie and new tvShows.</br>
+ ⦁ Add direct link filter ( can get only direct links, but some times not found ).
+
+</h6>
+
 [`⛼ GO UP`](#links)
 
 ## Author : [@mrnima](https://github.com/darkmakerofc)
